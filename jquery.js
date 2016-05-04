@@ -13,7 +13,7 @@ $('#show server text').text(data);
 
 
 
-} ).fail(function() {console.log("request var fel")})
+} ).fail(function(jqxhr, errorstatus) {console.log("request var fel")})
 
 
 
